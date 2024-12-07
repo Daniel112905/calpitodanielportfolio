@@ -1,0 +1,677 @@
+/*-ts*/
+.container{
+    position:fixed;
+    background-color: rgb(0, 1, 31);
+    height: 100%;
+    width: 330px;
+    pointer-events: all;
+    z-index: 2;
+}
+
+
+/*img*/
+.image{
+    position: fixed;
+    justify-content: center;
+    height: auto;
+    width: 127px;
+    margin-top: -180px;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+.image{
+    border: 7px solid rgb(77, 77, 77, 0.7);
+}
+
+/*navigation bar adjustments and styles*/
+.nav-link{
+    margin-top: 20px;
+    color: rgb(188, 188, 188);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17.5px;
+    background-color: transparent;
+    border: none;
+}
+
+#icons{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: white;
+    gap: 25px;
+    font-size: 25px;
+}
+
+.container .nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.button-home:hover i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-about:hover i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-resume:hover i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-portfolio:hover i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-services:hover i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-contact:hover i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.fa-facebook:hover{
+    background-color: rgba(47, 135, 251, 0.926);
+}
+
+.fa-github:hover{
+    background-color: rgba(47, 135, 251, 0.926);
+}
+
+.fa-youtube:hover{
+    background-color: rgba(47, 135, 251, 0.926);
+}
+
+.fa-inbox:hover{
+    background-color: rgba(47, 135, 251, 0.926);
+}
+
+.navbar-brand{
+    color: white;
+    margin-top: -15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar{
+    position: sticky;
+    display: flex;
+    flex-direction:column;
+    margin-top: 218px;
+     
+}
+
+.navbar-nav{
+    display: grid;
+    margin-top: -10em;
+    margin-left: -9em;
+}
+.nav-item{
+    margin-bottom: 23px;
+}
+
+/*active buttons*/   
+
+/*focus of a button to remain its color*/
+.nav-link:focus{
+    color: white;
+}
+
+.button-home:focus i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-about:focus i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-resume:focus i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-portfolio:focus i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-services:focus i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.button-contact:focus i{
+    color:rgba(47, 135, 251, 0.926)
+}
+
+.navbar-brand:focus{
+    color: white;
+}
+
+/*icons*/
+.fa-house{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 9px;
+    margin-top: 4px;
+}
+
+.fa-user{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 1px;
+    margin-top: 4px;
+}
+
+.fa-file{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 2px;
+    margin-top: 4px;
+}
+
+.fa-image{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.fa-list{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 5.4px;
+    margin-top: 4px;
+}
+
+.fa-envelope{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+/*buttons*/
+.button-home{
+    display: flex;
+    position: fixed;
+    margin-left: -302px;
+    padding: 19px 225px;
+}
+
+.button-about{
+    display: flex;
+    margin-top: 3.5em;
+    position: fixed;
+    margin-left: -291px;
+    padding: 19px 224px;
+}
+
+.button-resume{
+    display: flex;
+    margin-top: 5.89em;
+    position: fixed;
+    margin-left: -274px;
+    padding: 19px 208px;
+}
+
+.button-portfolio{
+    display: flex;
+    margin-top: 8.28em;
+    position: fixed;
+    margin-left: -276px;
+    padding: 19px 205px;
+}
+
+.button-services{
+    display: flex;
+    margin-top: 10.65em;
+    position: fixed;
+    margin-left: -275px;
+    padding: 19px 205px;
+}
+
+.button-contact{
+    display: flex;
+    margin-top: 13.01em;
+    position: fixed;
+    margin-left: -279px;
+    padding: 19px 209px;
+ 
+}
+
+.fa-facebook{
+   padding: 10px;
+   background-color: rgb(77, 77, 77, 0.7);
+   border-radius: 50%;
+   color: white;
+}
+
+.fa-inbox{
+    padding: 10px;
+    background-color: rgb(77, 77, 77, 0.7);
+    border-radius: 50%;
+    color: white;
+}
+
+.fa-youtube{
+    justify-content: center;
+    padding: 9px;
+    background-color: rgb(77, 77, 77, 0.7);
+    border-radius: 100%;
+    color: white;
+}
+
+.fa-github{
+    padding: 10px;
+    background-color: rgb(77, 77, 77, 0.7);
+    border-radius: 50%;
+    color: white;
+}
+
+/*container2*/
+.container-two{
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    z-index: 1;
+    background-color: black;;
+}
+
+section:nth-child(even){
+    background-color: white;
+}
+section:nth-child(odd){
+    background-color: aliceblue;
+}
+
+section{
+    position:relative;
+    margin-top: 0;
+    margin-left: 330px;
+    color: rgb(0, 0, 0);
+    padding: 25% 
+
+}
+
+#home{
+    position: relative;
+    height: 100%;
+    background-image:url('danieltwo.jpg');
+    background-position: -200px -780px;
+    background-size: 160%;
+    background-color: black;
+}
+
+#home::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.54);
+    z-index: 1;
+}
+
+#home h1{
+    position: relative;
+    display: flex;
+    transform: translateX(-100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 90px;
+    margin-top: -30px;
+    color: white;
+    font-size:6cap;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+#home p{
+    position: relative;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateX(-100%);
+    color: white;
+    margin-right: 100px;
+    margin-top: -5px;
+    font-size: 2.2cap;
+    height: 30px;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+#home span{
+    font-weight: bolder;
+    color:rgb(255, 238, 0);
+}
+
+#about{
+    position: relative;
+    height: 100%;
+}
+
+#about h1{
+    height: 55px;
+    margin-left: -270px;
+    margin-top: -300px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3.2px solid black;
+    width: 70px;
+    border-color: rgba(47, 135, 251, 0.926);
+}
+
+#about p{
+    position: relative;
+    display: flex;
+    height: 55px;
+    margin-left: -270px;
+    font-size: 20px;
+    z-index: 2; 
+}
+
+.icons2{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-left: -250px;
+    margin-top: 200px;
+}
+
+.icons3{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-left: 500px;
+}
+
+.birthday{
+    display: flex;
+    margin-top: -233.5px;
+    margin-left: -200px;
+}
+
+#birthdayb{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.phone{
+    display: flex;
+    margin-top: 82px;
+    margin-left: -200px;
+}
+
+#Phonen{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.city{
+    display: flex;
+    margin-top: 82px;
+    margin-left: -200px;
+}
+
+#cityp{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.age{
+    display: flex;
+    margin-top: -236px;
+    margin-left: 320px;
+}
+
+#agek{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.degree{
+    display: flex;
+    margin-top: 82px;
+    margin-left: 320px;
+    white-space: nowrap;
+}
+
+#degreek{
+    position: relative;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.email{
+    display: flex;
+    margin-top: 83px;
+    margin-left: 320px;
+}
+
+#emailk{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#resume{
+    position: relative;
+    height: 100%;
+}
+
+#resume h1{
+    height: 55px;
+    margin-left: -270px;
+    margin-top: -300px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3.2px solid black;
+    width: 70px;
+    border-color: rgba(47, 135, 251, 0.926);
+}
+
+.container-two #resume{
+    height: 135%;
+}
+
+.summary h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+    margin-left: -260px;
+}
+
+#content p1{
+    font-weight: bold;
+}
+
+#content{
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: -240px;
+    overflow-wrap: break-word;
+    text-align: justify;
+    max-width: 330px;
+    line-height: 1.6;
+    padding: 0;
+}
+
+#summary-lists{
+    margin-top: 0px;
+    margin-left: -255px;
+}
+
+.education{
+    margin-top: -20px;
+}
+
+#ed-content p1{
+    font-weight: bold;
+    margin-left: -246px;
+}
+
+#ed-content p{
+    margin-left: -220px;
+}
+
+#awards{
+    font-weight: bold;
+}
+
+#loyalty{
+    font-weight: bold;
+}
+
+#achievements{
+    margin-left: -255px;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: -240px;
+    overflow-wrap: break-word;
+    text-align: justify;
+    max-width: 330px;
+    line-height: 1.6;
+    padding: 0;
+}
+
+.skills h3{
+    margin-left: 275px;
+    margin-top: -777px;
+}
+
+#skills{
+    margin-left: 275px;
+    white-space: nowrap;
+}
+
+.languages h3{
+    margin-left: 275px;
+}
+
+#languages{
+    margin-left: 275px;
+    white-space: nowrap;
+}
+
+#portfolio h1{
+    justify-content: fixed;
+    height: 55px;
+    margin-left: -40px;
+    margin-top: -65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3.2px solid black;
+    width: 70px;
+    border-color: rgba(47, 135, 251, 0.926);
+}
+
+#services h1{
+    height: 55px;
+    margin-left: -270px;
+    margin-top: -300px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3.2px solid black;
+    width: 70px;
+    border-color: rgba(47, 135, 251, 0.926);
+}
+
+.services{
+    margin-left: -270px;
+    margin-top: 17px;
+    font-size: larger;
+}
+
+#social-management{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -240px;
+    margin-top: 60px;
+}
+
+#smm{
+    margin-left: -270px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+    max-width: 330px;
+    line-height: 1.6;
+    padding: 0;
+}
+
+#web-development{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap;
+    margin-left: 330px;
+    margin-top: -194px;
+}
+
+#wb{
+    margin-top: 20px;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: 40px;
+    overflow-wrap: break-word;
+    text-align: justify;
+    max-width: 100%;
+    white-space:normal;
+    line-height: 1.6;
+    padding: 0;
+    transform: translateX(190px);
+}
+
+#contact h1{
+    height: 55px;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3.2px solid black;
+    width: 70px;
+    border-color: rgba(47, 135, 251, 0.926);
+}
+
+.cardmail{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.email-link{
+    text-decoration: none;
+}
+
+.cardphone{
+    margin-top: -104px;
+    margin-left: 450px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-subtitle2{
+    color: #5d5d5d;
+}
+
+#contact{
+  padding: 50px; /* Add space inside the section */ 
+}
+
+.graduation #grad{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    transform: translateX(-40px);
+}
+
+.awards #awr{
+    width: 400px;
+    height: 300px;
+    margin-top: -330px;
+    transform: translateX(450px);
+}
+
+#portfolio{
+    padding: 150px; /* Add space inside the section */ 
+  }
